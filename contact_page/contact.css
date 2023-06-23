@@ -1,0 +1,75 @@
+/* code to backgrounf */
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+#video-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color:  #2b41994a;
+    border-radius: 10px;
+	border: 20px sold black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+} 
+.content  :hover{ 
+	border: 20px sold black;
+	scale: 1.02
+    
+} 
+/* main css */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+     border: 3px solid #080707;
+    border-radius: 5px;
+    background-color: #211f1fa8;
+    box-sizing: border-box;
+    resize: none;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #498e24;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(48, 156, 102, 0.526);
+}
+
+ 
