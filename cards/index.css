@@ -54,6 +54,9 @@ img {
 }
 .training-items p {
     padding: 3px 0px;
+    color: rgb(190, 185, 185);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
 .training-items button {
@@ -64,9 +67,10 @@ img {
     scale: 1.1;
     box-shadow: 0px 0px 10px 3px rgba(16, 1, 1, 0.352);    
     transition: 0.5s;
+    
 }
 
-.container  button {
+.training-items  button {
     background-color: rgba(255, 105, 180, 0.393);
     border: 1px solid black;
     border-radius: 3px;
@@ -80,8 +84,4 @@ img {
     border-radius: -7px;
     letter-spacing: 1px;
     
-    
-    
-    
-
 }
